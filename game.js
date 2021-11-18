@@ -53,20 +53,20 @@ menu.addEventListener("click", function () {
   // setInterval(alt, 30000);
 });
 exit.addEventListener("click", function (e) {
-  window.location.href = window.location.href;
-  window.close("", "_self", "");
+      window.location="https://anaselkalla.github.io/TicTacToeHome/";
+
 });
 newGame.addEventListener("click", function () {
   makeSound();
   const homePage = function () {
-    window.location.href = "../../index.html";
+    window.location="https://anaselkalla.github.io/TicTacToeHome/";
   };
   setInterval(homePage, 1000);
 });
 home.addEventListener("click", function () {
   makeSound();
   const homePage = function () {
-    window.location.href = "../../index.html";
+    window.location="https://anaselkalla.github.io/TicTacToeHome/";
   };
   setInterval(homePage, 1000);
 });
